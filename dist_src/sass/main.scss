@@ -1,0 +1,43 @@
+@import 'variables';
+@import 'layouts';
+@import 'index';
+@import 'vacancies';
+
+body {
+  margin: 0;
+  font-family: $font-family-base;
+}
+.partners {
+  border-bottom: 1px solid #bcc3ce;
+
+  &__item{
+    color: #417FD3;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: $font-size-extra-small;
+
+    &--active{
+      color: black;
+    }
+  }
+}
+
+
+.footer-menu {
+  width: 1100px;
+  margin: auto;
+  padding: 20px 0 20px 0;
+
+  &__item {
+    text-decoration: none;
+    color: #464646;
+    font-weight: bold;
+    font-size: $font-size-small;
+    text-transform: uppercase;
+    margin-right: 15px;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

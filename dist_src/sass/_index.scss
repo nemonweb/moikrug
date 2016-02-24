@@ -1,0 +1,381 @@
+.main{
+  background-image: url(https://habracdn.net/mk/assets/landings/landing_v2/header.bg-64d5c3246a0ebe59a370b8c8df4419db.jpg);
+  height: 636px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &__title {
+    font-size: $font-size-big;
+    font-weight: bold;
+    margin-top: 170px;
+    color: #eaeaea;
+    margin-bottom: 50px;
+  }
+}
+
+
+
+.header {
+  padding-top: 30px;
+  display: inline-block;
+  width: 100%;
+}
+
+.top-logo {
+  display: block;
+  width: 100px;
+  float: left;
+
+  path {
+    fill: white;
+  }
+}
+
+
+
+.registration {
+  float: right;
+  margin-right: 20px;
+
+  &__item {
+    text-decoration: none;
+    color: white;
+    font-size: $font-size-small;
+    font-weight: bold;
+
+    &--active {
+      background-color: #65c178;
+      padding: 7px;
+      border-radius: 5px;
+      font-size: $font-size-small;
+      margin-left: 15px;
+    }
+  }
+}
+
+
+
+
+.search-box {
+  &__subtitle {
+    color: #eaeaea;
+    font-size: $font-size-medium;
+    margin-bottom: 10px;
+  }
+
+  &__profession {
+    padding: 13px 15px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    font-size: $font-size-medium;
+    border: 0;
+    border-right: 1px solid #e2e2e2;
+    width: 500px;
+  }
+
+  &__city {
+    padding: 13px 15px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    font-size: $font-size-medium;
+    border: 0;
+    margin-left: -4px;
+  }
+
+  &__submit {
+    font-size: $font-size-medium;
+    color: #fff;
+    background-color: #5677FC;
+    border: 0;
+    padding: 13px 27.43px;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-left: 10px;
+
+    &:hover {
+      background-color: #738efa;
+    }
+  }
+}
+
+
+
+
+.statistic {
+  color: white;
+  width: 100%;
+  margin-top: 100px;
+
+  &__item {
+    width: 260px;
+    font-size: $font-size-medium;
+    border-left: 1px solid white;
+    padding: 6px 0px 6px 17px;
+    display: inline-block;
+  }
+
+  &__number {
+    display: block;
+    font-size: $font-size-extra-large;
+    font-weight: bold;
+  }
+}
+
+.companies {
+  background-color: #F8F8F8;
+  padding: 75px 0;
+
+  &__title {
+    font-size: $font-size-extra-large;
+    color: #464646;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 45px;
+  }
+}
+
+.company {
+  width: 300px;
+  text-align: center;
+  background-color: #ededed;
+  display: inline-block;
+  margin: 0 10px 20px;
+
+  &__link {
+    text-decoration: none;
+    padding: 17px;
+    display: block;
+    box-shadow: 0px 3px 5px 0 rgba(174,174,174,0.5);
+    background-color: white;
+  }
+
+  &__logo {
+    margin-bottom: 10px;
+  }
+
+  &__images {
+    width: 150px;
+    height: 150px;
+  }
+
+  &__name {
+    color: #464646;
+    font-weight: bold;
+    font-size: $font-size-large;
+    margin-bottom: 10px;
+  }
+
+  &__description {
+    color: #717171;
+    font-size: $font-size-medium;
+    line-height: 26px;
+  }
+
+  &__vacancy {
+    display: block;
+    text-decoration: none;
+    font-size: $font-size-medium;
+    font-weight: bold;
+    line-height: 50px;
+    color: #1463d9;
+  }
+}
+
+
+
+.advantages {
+  background-color: #33a7d7;
+  color: #fff;
+  padding: 75px 0px;
+
+  &__title {
+    width: 900px;
+    margin: 0px auto 15px;
+    font-size: $font-size-extra-large;
+    display: inline-block;
+  }
+
+  &__user {
+    font-size: $font-size-large;
+    margin-bottom: 60px;
+  }
+
+  &__name {
+    font-weight: bold;
+  }
+
+  &__more {
+    background-color: #33a7d7;
+    color: white;
+    font-size: $font-size-medium;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 2px solid white;
+    padding: 12px 25px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+
+    &:hover {
+      background-color: white;
+      color: black;
+    }
+  }
+
+  &__row {
+    margin-bottom: 60px;
+  }
+}
+
+.feature {
+  margin-right: 50px;
+  display: inline-block;
+  width: 350px;
+
+  &:last-child {
+    margin-right: 0px;
+  }
+
+  &__icon {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+
+    path {
+      fill: #fff;
+    }
+
+    circle {
+      fill: #fff;
+    }
+
+    polygon {
+      fill: #fff;
+    }
+
+    rect {
+      fill: #fff;
+    }
+  }
+
+  &__text {
+    font-size: $font-size-medium;
+    line-height: 28px;
+  }
+}
+
+.vacancy-categories {
+  background-color: #f8f8f8;
+  overflow: hidden;
+  padding: 70px 0;
+
+  &__title {
+    color: #000;
+    font-size: $font-size-extra-large;
+    margin: auto;
+    margin-bottom: 50px;
+    display: table;
+  }
+}
+
+
+
+.category {
+  width: 270px;
+  height: 230px;
+  display: inline-block;
+  background-color: #fff;
+  border: 2px solid #e7e7e7;
+  text-decoration: none;
+  text-align: center;
+  margin: 0 14px 30px;
+
+  &:hover {
+    border: 2px solid #4089DB;
+
+    .category__icon path {
+      fill: #4089DB;
+    }
+
+    .category__icon circle {
+      fill: #4089DB;
+    }
+  }
+
+  &__icon {
+    margin-top: 51px;
+    margin-bottom: 27px;
+
+    path {
+      fill: #c5c5c5;
+    }
+
+    circle {
+      fill: #c5c5c5;
+    }
+  }
+
+  &__title {
+    color: #464646;
+    font-weight: bold;
+    font-size: $font-size-medium;
+    margin-bottom: 14px;
+  }
+
+  &__quantity {
+    color: #4089DB;
+    font-weight: bold;
+  }
+}
+
+.form {
+  background-image: url(https://habracdn.net/mk/assets/landings/landing_v2/footer.bg-35bc84d0e5b905add8e1f28e712f024b.jpg);
+  height: 700px;
+  background-size: cover;
+  background-position: center center;
+  padding: 200px 0 60px 0;
+  color: white;
+
+  &__title {
+    font-size: $font-size-extra-large;
+    margin-bottom: 50px;
+  }
+
+  &__registration {
+    text-decoration: none;
+    color: white;
+    border: 1px solid #64c178;
+    background-color: #64c178;
+    border-radius: 5px;
+    padding: 12px 28px 12px 28px;
+    font-size: $font-size-medium;
+    font-weight: bold;
+    margin-bottom: 160px;
+    display: inline-block;
+
+    &:hover {
+      background-color: #71d085;
+    }
+  }
+
+  &__question {
+    font-size: $font-size-medium;
+    margin-bottom: 38px;
+  }
+
+  &__enter {
+    text-decoration: none;
+    color: white;
+    font-size: $font-size-medium;
+    font-weight: bold;
+    border: 2px solid;
+    border-radius: 3px;
+    padding: 10px 25px 10px 25px;
+
+    &:hover {
+      color: black;
+      background-color: white;
+      border: 2px solid white;
+    }
+  }
+}

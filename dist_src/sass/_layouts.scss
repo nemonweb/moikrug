@@ -1,0 +1,20 @@
+.layout {
+
+  &__container {
+    width: 1100px;
+    margin: 0 auto;
+    display: table;
+  }
+
+  &__inner {
+    width: 944px;
+    padding: 0 22px;
+    margin: auto;
+  }
+
+  &__inner-two {
+    width: 1440px;
+    margin: auto;
+    text-align: center;
+  }
+}
